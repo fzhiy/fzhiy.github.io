@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+
+  
+  <title>考研复试/【机试】2019华科机试题【纯C实现】 | Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="2019年华科计算机学院机试题pro01,梅森素数12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970717273747576777879808182838485868788#include">
+<meta property="og:type" content="article">
+<meta property="og:title" content="考研复试&#x2F;【机试】2019华科机试题【纯C实现】">
+<meta property="og:url" content="http://yoursite.com/2020/03/03/%E8%80%83%E7%A0%94%E5%A4%8D%E8%AF%95/%E3%80%90%E6%9C%BA%E8%AF%95%E3%80%912019%E5%8D%8E%E7%A7%91%E6%9C%BA%E8%AF%95%E9%A2%98%E3%80%90%E7%BA%AFC%E5%AE%9E%E7%8E%B0%E3%80%91/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="2019年华科计算机学院机试题pro01,梅森素数12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970717273747576777879808182838485868788#include">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2020-03-03T06:17:49.226Z">
+<meta property="article:modified_time" content="2020-03-02T07:09:01.656Z">
+<meta property="article:author" content="John Doe">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+<meta name="generator" content="Hexo 4.2.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-考研复试/【机试】2019华科机试题【纯C实现】" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/03/03/%E8%80%83%E7%A0%94%E5%A4%8D%E8%AF%95/%E3%80%90%E6%9C%BA%E8%AF%95%E3%80%912019%E5%8D%8E%E7%A7%91%E6%9C%BA%E8%AF%95%E9%A2%98%E3%80%90%E7%BA%AFC%E5%AE%9E%E7%8E%B0%E3%80%91/" class="article-date">
+  <time datetime="2020-03-03T06:17:49.226Z" itemprop="datePublished">2020-03-03</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      考研复试/【机试】2019华科机试题【纯C实现】
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="2019年华科计算机学院机试题"><a href="#2019年华科计算机学院机试题" class="headerlink" title="2019年华科计算机学院机试题"></a>2019年华科计算机学院机试题</h1><h2 id="pro01-梅森素数"><a href="#pro01-梅森素数" class="headerlink" title="pro01,梅森素数"></a>pro01,梅森素数</h2><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdlib.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> MAXN 100+5</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> LL_MAX ((1LL&lt;&lt;63)-1)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> ll long long</span></span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">1、梅森素数</span></span><br><span class="line"><span class="comment">题目要求：</span></span><br><span class="line"><span class="comment">梅森素数是由梅森数而来。所谓梅森数，是指形如2^p-1 的一类数，其中指数 p 是素数，常记为 Mp 。如果梅森数是素数，就称为梅森素数。</span></span><br><span class="line"><span class="comment">题目要求是，输入一个长整型数，然后输出比该数字小的梅森素数</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"><span class="comment">// wiki：https://zh.wikipedia.org/wiki/%E6%A2%85%E6%A3%AE%E7%B4%A0%E6%95%B0</span></span><br><span class="line"><span class="comment">///Miller-Rabbin算法的复杂度与s有关 2^(-s)为出错率</span></span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> s=<span class="number">50</span>;</span><br><span class="line"><span class="function">ll <span class="title">pow_mod</span><span class="params">(ll a,ll b,ll mod)</span> </span>&#123;</span><br><span class="line">    ll ans=<span class="number">1</span>;</span><br><span class="line">    <span class="keyword">while</span>(b) &#123;</span><br><span class="line">        <span class="keyword">if</span> (b&amp;<span class="number">1</span>)</span><br><span class="line">            ans=ans*a%mod;</span><br><span class="line">        a = a*a%mod;</span><br><span class="line">        b &gt;&gt;= <span class="number">1</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> ans;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">MRT</span><span class="params">(ll n)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(n == <span class="number">2</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="number">1</span>;<span class="comment">///2的时候 特判</span></span><br><span class="line">    <span class="keyword">for</span>(ll i=<span class="number">1</span>; i &lt;= s; i++) &#123;</span><br><span class="line">        ll tmp = rand()%(n<span class="number">-1</span>)+<span class="number">1</span>;</span><br><span class="line">        <span class="keyword">if</span>(pow_mod(tmp,n<span class="number">-1</span>,n) != <span class="number">1</span>)</span><br><span class="line">            <span class="keyword">return</span> <span class="number">0</span>;<span class="comment">///非素数</span></span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">1</span>;<span class="comment">///素数</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/// 六素数法</span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">is_prime</span><span class="params">(ll n)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(n &lt;= <span class="number">3</span>)</span><br><span class="line">        <span class="keyword">return</span> n&gt;<span class="number">1</span>;</span><br><span class="line">    <span class="keyword">if</span>(n%<span class="number">3</span> ==<span class="number">0</span> || n%<span class="number">2</span> == <span class="number">0</span>)</span><br><span class="line">        <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">5</span>; i*i&lt;=n; i++)</span><br><span class="line">        <span class="keyword">if</span>(n % i == <span class="number">0</span> || n % (i+<span class="number">2</span>) == <span class="number">0</span>)</span><br><span class="line">            <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">1</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/** 这里只是拓展下知识面... 可忽略..</span></span><br><span class="line"><span class="comment">ll S[10], res[MAXN]; /// 注意long long的长度</span></span><br><span class="line"><span class="comment">/// 卢卡斯-莱默检验法（目前针对梅森数判断的最快方法）</span></span><br><span class="line"><span class="comment">int lucas_lerhm_pest() &#123;</span></span><br><span class="line"><span class="comment">    S[0]=4;</span></span><br><span class="line"><span class="comment">    int i, cnt=0;</span></span><br><span class="line"><span class="comment">    res[cnt++] = 3;///M2特判， 后面使用卢卡斯-莱默检验法</span></span><br><span class="line"><span class="comment">    for(i=1; i&lt;6; i++) &#123;</span></span><br><span class="line"><span class="comment">        S[i] = S[i-1]*S[i-1] - 2;</span></span><br><span class="line"><span class="comment">    &#125;</span></span><br><span class="line"><span class="comment">    ll x=2, j=2;</span></span><br><span class="line"><span class="comment">    while(x &lt; LL_MAX &amp;&amp; j&lt;7) &#123;</span></span><br><span class="line"><span class="comment">        x = (1&lt;&lt;j) - 1;</span></span><br><span class="line"><span class="comment">        if(S[j-2] % x == 0) &#123;</span></span><br><span class="line"><span class="comment">            res[cnt++] = x;</span></span><br><span class="line"><span class="comment">        &#125;</span></span><br><span class="line"><span class="comment">        j++;</span></span><br><span class="line"><span class="comment">    &#125;</span></span><br><span class="line"><span class="comment">    for(i=0; i&lt;cnt; i++) &#123;</span></span><br><span class="line"><span class="comment">        printf("%d ", res[i]);</span></span><br><span class="line"><span class="comment">    &#125;</span></span><br><span class="line"><span class="comment">    printf("\n");</span></span><br><span class="line"><span class="comment">&#125;</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    ll n;</span><br><span class="line">    <span class="keyword">while</span>(~<span class="built_in">scanf</span>(<span class="string">"%lld"</span>, &amp;n)) &#123;</span><br><span class="line">        ll x=<span class="number">2</span>, j=<span class="number">2</span>;</span><br><span class="line">        <span class="keyword">while</span>(x &lt;= n) &#123;</span><br><span class="line">            x = (<span class="number">1</span>&lt;&lt;j)<span class="number">-1</span>;</span><br><span class="line">            <span class="keyword">if</span>(is_prime(x)) &#123;</span><br><span class="line">                <span class="built_in">printf</span>(<span class="string">"%d "</span>, x);</span><br><span class="line">            &#125;</span><br><span class="line">            j++;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="built_in">puts</span>(<span class="string">""</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="pro02-文件处理（后面补充）"><a href="#pro02-文件处理（后面补充）" class="headerlink" title="pro02,文件处理（后面补充）"></a>pro02,文件处理（后面补充）</h2><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h2 id="pro03-字符串的操作"><a href="#pro03-字符串的操作" class="headerlink" title="pro03,字符串的操作"></a>pro03,字符串的操作</h2><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdlib.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> MAXN 100+5</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> LL_MAX ((1LL&lt;&lt;63)-1)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> ll long long</span></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">3、字符串的操作</span></span><br><span class="line"><span class="comment">题目要求：</span></span><br><span class="line"><span class="comment">要求输入一个由字母构成的字符串，然后将每位字母后面两位的字母输出，让字母</span></span><br><span class="line"><span class="comment">形成一个环。就比如，输入的是 aBX ，输出的是 cDZ, 然后对每一位字符进行奇校</span></span><br><span class="line"><span class="comment">验，输出奇校验的 8 位二进制数，然后将奇校验的二进制数转换为十进制输出。</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">solve</span><span class="params">(<span class="keyword">char</span> *str)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">int</span> i, biNum[<span class="number">8</span>];</span><br><span class="line">    <span class="keyword">for</span>(i=<span class="number">0</span>; str[i]; i++) &#123;</span><br><span class="line">        <span class="keyword">int</span> num = str[i], cnt=<span class="number">8</span>;</span><br><span class="line">        <span class="keyword">while</span>(num) &#123;<span class="comment">// 转换二进制</span></span><br><span class="line">            biNum[--cnt] = num%<span class="number">2</span>;</span><br><span class="line">            num /= <span class="number">2</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">while</span>(cnt&gt;<span class="number">0</span>) &#123;<span class="comment">///补0</span></span><br><span class="line">            biNum[--cnt] = <span class="number">0</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">int</span> j, times=<span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span>(j=<span class="number">0</span>; j&lt;<span class="number">8</span>; j++) &#123;</span><br><span class="line">            <span class="keyword">if</span>(biNum[j] == <span class="number">1</span>) times++;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span>(times % <span class="number">2</span> == <span class="number">0</span>) <span class="comment">///奇校验</span></span><br><span class="line">            biNum[<span class="number">0</span>]=<span class="number">1</span>;</span><br><span class="line">        <span class="keyword">int</span> ans=<span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span>(j=<span class="number">0</span>; j&lt;<span class="number">8</span>; j++) &#123;</span><br><span class="line">            ans=ans*<span class="number">2</span>+biNum[j];</span><br><span class="line">            <span class="built_in">printf</span>(<span class="string">"%d"</span>, biNum[j]);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">" %d\n"</span>,ans);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="keyword">char</span> mes[MAXN];</span><br><span class="line">    <span class="keyword">while</span>(~<span class="built_in">scanf</span>(<span class="string">"%s"</span>, mes)) &#123;</span><br><span class="line">        <span class="keyword">int</span> i;</span><br><span class="line">        <span class="keyword">for</span>(i=<span class="number">0</span>; mes[i]; i++) &#123;</span><br><span class="line">            <span class="keyword">if</span>(mes[i]&gt;=<span class="string">'A'</span>&amp;&amp;mes[i]&lt;=<span class="string">'Z'</span>) &#123;</span><br><span class="line">                mes[i] = (mes[i]<span class="number">-65</span>+<span class="number">2</span>)%<span class="number">26</span>+<span class="number">65</span>;</span><br><span class="line">            &#125; <span class="keyword">else</span> <span class="keyword">if</span>(mes[i]&gt;=<span class="string">'a'</span> &amp;&amp; mes[i]&lt;=<span class="string">'z'</span>) &#123;</span><br><span class="line">                mes[i] = (mes[i]<span class="number">-97</span>+<span class="number">2</span>)%<span class="number">26</span>+<span class="number">97</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="built_in">puts</span>(mes);</span><br><span class="line">        solve(mes);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h1 id="2019年华科软院机试题"><a href="#2019年华科软院机试题" class="headerlink" title="2019年华科软院机试题"></a>2019年华科软院机试题</h1><h2 id="pro01-奇数魔方阵"><a href="#pro01-奇数魔方阵" class="headerlink" title="pro01, 奇数魔方阵"></a>pro01, 奇数魔方阵</h2><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdlib.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> MAXN 1000+5</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> LL_MAX ((1LL&lt;&lt;63)-1)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> ll long long</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> mem(a, n) memset(a, n, sizeof(a))</span></span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> 1. 魔方阵，古代又称“纵横图”，是指组成元素为自然数 1 、 2 n 的平方的 n × n 的</span></span><br><span class="line"><span class="comment">方阵，其中 每个元素值都不相等，且每行、每列以及主、副对角线上各 n 个元素之</span></span><br><span class="line"><span class="comment">和都相等。阶数大于等于 3 。</span></span><br><span class="line"><span class="comment">如 3 × 3 的魔方阵：</span></span><br><span class="line"><span class="comment">8 1 6</span></span><br><span class="line"><span class="comment">3 5 7</span></span><br><span class="line"><span class="comment">4 9 2</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">奇数魔方阵的排列规律如下：</span></span><br><span class="line"><span class="comment">(1) 将 1 放在第一行中间一列；</span></span><br><span class="line"><span class="comment">(2) 从 2 开始直到 n × n 止各数依次按下列规则存放；每一个数存放的行比前一</span></span><br><span class="line"><span class="comment">个数的行数减 1 ，列数加 1 （例如上面的三阶魔方阵 5 在 4 的上一行后一列）；</span></span><br><span class="line"><span class="comment">(3)如果上一个数的行数为如果上一个数的行数为11，则下一个数的行数为，则下一个数的行数为n(n(指最下一行指最下一行););例如例如11在在第一行，则第一行，则22应放在最下一行，列数同样加应放在最下一行，列数同样加11；；</span></span><br><span class="line"><span class="comment">(4))当上一个数的列数为当上一个数的列数为nn时，下一个数的列数应为时，下一个数的列数应为11，行数减去，行数减去11。例如。例如22在在第第33行最后一列，则行最后一列，则33应放在第二行第一列；应放在第二行第一列；</span></span><br><span class="line"><span class="comment">(5)如果按上面规则确定的位置上已有数，或上一个数是第一行第如果按上面规则确定的位置上已有数，或上一个数是第一行第nn列时，则列时，则把下一个数放在上一个数的下面。例如按上面的规定，把下一个数放在上一个数的下面。例如按上面的规定，44应该放在第应该放在第11行第行第22列，列，但该位置已经被占据，所以但该位置已经被占据，所以44就放在就放在33的下面；的下面；</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">输入格式：</span></span><br><span class="line"><span class="comment">输入魔方阵的阶数（阶数大于等于</span></span><br><span class="line"><span class="comment">3 的奇数阵）</span></span><br><span class="line"><span class="comment">输出格式：</span></span><br><span class="line"><span class="comment">输出魔方阵</span></span><br><span class="line"><span class="comment">输入样例：</span></span><br><span class="line"><span class="comment">3</span></span><br><span class="line"><span class="comment">输出样例：</span></span><br><span class="line"><span class="comment">8 1 6</span></span><br><span class="line"><span class="comment">3 5 7</span></span><br><span class="line"><span class="comment">4 9 2</span></span><br><span class="line"><span class="comment">2.</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"><span class="keyword">int</span> matrix[MAXN][MAXN];</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">solve</span><span class="params">(<span class="keyword">int</span> n)</span> </span>&#123;</span><br><span class="line">    mem(matrix, <span class="number">0</span>);</span><br><span class="line">    matrix[<span class="number">0</span>][n/<span class="number">2</span>] = <span class="number">1</span>; <span class="comment">//条件(1)</span></span><br><span class="line">    <span class="keyword">int</span> preRow=<span class="number">0</span>, preCol=n/<span class="number">2</span>, nextRow, nextCol;</span><br><span class="line">    <span class="keyword">int</span> num=<span class="number">2</span>; <span class="comment">//当前需要放置的数字</span></span><br><span class="line">    <span class="keyword">while</span>(num&lt;=n*n) &#123;</span><br><span class="line">        <span class="comment">// 条件(2) (3) (4)</span></span><br><span class="line">        nextRow = (preRow<span class="number">-1</span>+n) % n;</span><br><span class="line">        nextCol = (preCol+<span class="number">1</span>+n) % n;</span><br><span class="line">        <span class="keyword">if</span>(matrix[nextRow][nextCol]!=<span class="number">0</span> || (preRow==<span class="number">0</span> &amp;&amp; preCol==n<span class="number">-1</span>)) &#123;<span class="comment">//(5)</span></span><br><span class="line">            nextRow=preRow+<span class="number">1</span>;</span><br><span class="line">            nextCol=preCol;</span><br><span class="line">        &#125;</span><br><span class="line">        matrix[nextRow][nextCol] = num++;</span><br><span class="line">        preRow = nextRow, preCol = nextCol;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">int</span> i,j;</span><br><span class="line">    <span class="keyword">for</span>(i=<span class="number">0</span>; i&lt;n; i++) &#123;</span><br><span class="line">        <span class="keyword">for</span>(j=<span class="number">0</span>; j&lt;n; j++) &#123;</span><br><span class="line">            <span class="built_in">printf</span>(<span class="string">"%5d "</span>, matrix[i][j]);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="built_in">puts</span>(<span class="string">""</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">puts</span>(<span class="string">""</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="keyword">int</span> n;</span><br><span class="line">    <span class="keyword">while</span>(~<span class="built_in">scanf</span>(<span class="string">"%d"</span>, &amp;n)) &#123;</span><br><span class="line">        solve(n);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="pro02，单词个数统计（含‘-’判断）"><a href="#pro02，单词个数统计（含‘-’判断）" class="headerlink" title="pro02，单词个数统计（含‘,’判断）"></a>pro02，单词个数统计（含‘,’判断）</h2><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdlib.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> MAXN 1000+5</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> LL_MAX ((1LL&lt;&lt;63)-1)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> ll long long</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> mem(a, n) memset(a, n, sizeof(a))</span></span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">2.从键盘输入一行字符，长度小于 1000 ，统计其中单词的个数，个单词以空格分</span></span><br><span class="line"><span class="comment">隔，且空格数可以是多个。</span></span><br><span class="line"><span class="comment">输入一行句子，仅有空格和英文字母构成。</span></span><br><span class="line"><span class="comment">输入格式：</span></span><br><span class="line"><span class="comment">输入只有一行句子。仅有空格和英文字母构成。（如含有逗号或者其他符号，即添</span></span><br><span class="line"><span class="comment">加一个 if 即可，如果逗号连接在两个单词之间，在 if 中统计逗号的数量，输出时</span></span><br><span class="line"><span class="comment">加上即可（默认不出现两个逗号之间只存在一个单词的情况和逗号单独出现的情</span></span><br><span class="line"><span class="comment">况））</span></span><br><span class="line"><span class="comment">输出格式：</span></span><br><span class="line"><span class="comment">单词的个数</span></span><br><span class="line"><span class="comment">输入样例：</span></span><br><span class="line"><span class="comment">To be or not to be This is a question</span></span><br><span class="line"><span class="comment">输出样例：</span></span><br><span class="line"><span class="comment">10</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"><span class="comment">// 这里代码把,当作一个单词了</span></span><br><span class="line"><span class="keyword">char</span> str[MAXN];</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    freopen(<span class="string">"dataIn.txt"</span>, <span class="string">"r"</span>, <span class="built_in">stdin</span>);</span><br><span class="line">    <span class="keyword">while</span>(gets(str)!=<span class="literal">NULL</span>) &#123;</span><br><span class="line">        <span class="keyword">int</span> num=<span class="number">0</span>,i ;</span><br><span class="line">        <span class="keyword">for</span>(i=<span class="number">0</span>; str[i]; ) &#123;</span><br><span class="line">            <span class="keyword">if</span>(str[i]==<span class="string">' '</span>)&#123;</span><br><span class="line">                i++;</span><br><span class="line">                <span class="keyword">continue</span>;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">if</span>(str[i]==<span class="string">','</span>) &#123;</span><br><span class="line">                <span class="keyword">while</span>(str[i++]==<span class="string">','</span>) ;</span><br><span class="line">                num++;</span><br><span class="line">                <span class="keyword">continue</span>;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">while</span>((str[i]&gt;=<span class="string">'A'</span> &amp;&amp; str[i]&lt;=<span class="string">'Z'</span>) || (str[i]&gt;=<span class="string">'a'</span>&amp;&amp;str[i]&lt;=<span class="string">'z'</span>)) &#123;</span><br><span class="line">                i++;</span><br><span class="line">            &#125;</span><br><span class="line">            num++;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">"%d\n"</span>, num);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2020/03/03/%E8%80%83%E7%A0%94%E5%A4%8D%E8%AF%95/%E3%80%90%E6%9C%BA%E8%AF%95%E3%80%912019%E5%8D%8E%E7%A7%91%E6%9C%BA%E8%AF%95%E9%A2%98%E3%80%90%E7%BA%AFC%E5%AE%9E%E7%8E%B0%E3%80%91/" data-id="ck7c0r2vd0002eclya6vjaq6m" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2020/03/03/%E8%80%83%E7%A0%94%E5%A4%8D%E8%AF%95/%E3%80%90%E6%9C%BA%E8%AF%95%E3%80%912018%E5%8D%8E%E7%A7%91%E6%9C%BA%E8%AF%95%E9%A2%98%E3%80%90%E7%BA%AFC%E5%AE%9E%E7%8E%B0%E3%80%91/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">考研复试/【机试】2018华科机试题【纯C实现】</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/03/">March 2020</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2020/03/03/%E8%80%83%E7%A0%94%E5%A4%8D%E8%AF%95/%E3%80%90%E6%9C%BA%E8%AF%95%E3%80%912019%E5%8D%8E%E7%A7%91%E6%9C%BA%E8%AF%95%E9%A2%98%E3%80%90%E7%BA%AFC%E5%AE%9E%E7%8E%B0%E3%80%91/">考研复试/【机试】2019华科机试题【纯C实现】</a>
+          </li>
+        
+          <li>
+            <a href="/2020/03/03/%E8%80%83%E7%A0%94%E5%A4%8D%E8%AF%95/%E3%80%90%E6%9C%BA%E8%AF%95%E3%80%912018%E5%8D%8E%E7%A7%91%E6%9C%BA%E8%AF%95%E9%A2%98%E3%80%90%E7%BA%AFC%E5%AE%9E%E7%8E%B0%E3%80%91/">考研复试/【机试】2018华科机试题【纯C实现】</a>
+          </li>
+        
+          <li>
+            <a href="/2020/03/03/%E8%80%83%E7%A0%94%E5%A4%8D%E8%AF%95/%E3%80%90%E6%9C%BA%E8%AF%95%E3%80%91%E5%8D%8E%E4%B8%AD%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A6%E6%9C%BA%E8%AF%95%E5%8E%86%E5%B9%B4%E7%9C%9F%E9%A2%98%E3%80%90%E7%BA%AFC%E5%AE%9E%E7%8E%B0%E3%80%91/">考研复试/【机试】华中科技大学机试历年真题【纯C实现】</a>
+          </li>
+        
+          <li>
+            <a href="/2020/03/03/hello-world/">Hello World</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2020 John Doe<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+
+  
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+  </div>
+</body>
+</html>
