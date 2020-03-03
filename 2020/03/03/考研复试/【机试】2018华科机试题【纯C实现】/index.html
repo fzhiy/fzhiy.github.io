@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+  <!-- Html Head Tag-->
+  <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="John Doe">
+  <!-- Open Graph Data -->
+  <meta property="og:title" content="考研复试/【机试】2018华科机试题【纯C实现】"/>
+  <meta property="og:description" content="" />
+  <meta property="og:site_name" content="Hexo"/>
+  <meta property="og:type" content="article" />
+  <meta property="og:image" content="http://yoursite.com"/>
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+
+  <!-- Site Title -->
+  <title>Hexo</title>
+
+  <!-- Bootstrap CSS -->
+  
+<link rel="stylesheet" href="/css/bootstrap.min.css">
+
+  <!-- Custom CSS -->
+  
+  
+<link rel="stylesheet" href="/css/style.light.css">
+
+
+  <!-- Google Analytics -->
+  
+
+<meta name="generator" content="Hexo 4.2.0"></head>
+
+  <body>
+    <!-- Page Header -->
+
+
+<header class="site-header header-background" style="background-image: url(/img/default-banner-dark.jpg)">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="page-title with-background-image">
+          <p class="title">考研复试/【机试】2018华科机试题【纯C实现】</p>
+          <p class="subtitle"></p>
+        </div>
+        <div class="site-menu with-background-image">
+          <ul>
+            
+              <li>
+                <a href="/">
+                  
+                  Home
+                  
+                </a>
+              </li>
+            
+              <li>
+                <a href="/archives">
+                  
+                  Archives
+                  
+                </a>
+              </li>
+            
+              <li>
+                <a href="https://github.com/<your-github-username>" target="_blank" rel="noopener">
+                  
+                  Github
+                  
+                </a>
+              </li>
+            
+              <li>
+                <a href="mailto:<your-email-address>">
+                  
+                  Email
+                  
+                </a>
+              </li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<article>
+  <div class="container typo">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="post-info text-muted">
+          
+            <!-- Author -->
+            <span class="author info">By John Doe</span>
+          
+          <!-- Date -->
+          <span class="date-time info">On
+            <span class="date">2020-03-03</span>
+            <span class="time">22:57:29</span>
+          </span>
+          
+        </div>
+        <!-- Tags -->
+        
+        <!-- Post Main Content -->
+        <div class="post-content">
+          <h1 id="2018年华科计算机机试题目"><a href="#2018年华科计算机机试题目" class="headerlink" title="2018年华科计算机机试题目"></a>2018年华科计算机机试题目</h1><p><img src="C:%5CUsers%5Cfzhiy%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5C1583153342430.png" alt="1583153342430"></p>
+<h2 id="pro01-单词及字母数统计"><a href="#pro01-单词及字母数统计" class="headerlink" title="pro01, 单词及字母数统计"></a>pro01, 单词及字母数统计</h2><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdlib.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> MAXN 100+5</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> LL_MAX ((1LL&lt;&lt;63)-1)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> ll long long</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> mem(a, n) memset(a, n, sizeof(a))</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">char</span> str[MAXN];</span><br><span class="line"><span class="keyword">char</span> strToInt[<span class="number">26</span>];</span><br><span class="line"><span class="keyword">int</span> len, cnt[<span class="number">26</span>]; <span class="comment">// cnt[] 记录字母出现的次数</span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">solve</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    len=<span class="built_in">strlen</span>(str);</span><br><span class="line">    mem(cnt, <span class="number">0</span>);</span><br><span class="line">    <span class="keyword">int</span> i=<span class="number">0</span>, wordNum=<span class="number">0</span>, alphaNum=<span class="number">0</span>;</span><br><span class="line">    len=<span class="built_in">strlen</span>(str);</span><br><span class="line">    <span class="keyword">while</span>(i &lt; len) &#123;</span><br><span class="line">        <span class="keyword">if</span>(str[i]!=<span class="string">' '</span>) &#123;</span><br><span class="line">            <span class="keyword">while</span>(i&lt;len &amp;&amp; str[i]!=<span class="string">' '</span>) &#123;</span><br><span class="line">                strToInt[i] = str[i]-<span class="string">'A'</span>;</span><br><span class="line">                alphaNum++;</span><br><span class="line">                <span class="keyword">if</span>(str[i]&gt;=<span class="string">'a'</span>&amp;&amp;str[i]&lt;=<span class="string">'z'</span>)</span><br><span class="line">                    strToInt[i] -= <span class="number">32</span>;</span><br><span class="line">                <span class="keyword">int</span> tmp=strToInt[i];</span><br><span class="line">                cnt[tmp] ++;</span><br><span class="line"><span class="comment">//                printf("str[%d]=%d\n", i, str[i]);</span></span><br><span class="line">                i++;</span><br><span class="line">            &#125;</span><br><span class="line">            wordNum++;</span><br><span class="line">        &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">            i++;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"字母个数：%d\n单词个数：%d\n"</span>, alphaNum, wordNum);</span><br><span class="line">    <span class="keyword">int</span> maxNum=<span class="number">0</span>; <span class="comment">//出现次数最多字母的次数</span></span><br><span class="line">    <span class="keyword">for</span>(i=<span class="number">0</span>; i&lt;<span class="number">26</span>; i++) &#123;</span><br><span class="line">        <span class="keyword">if</span>(cnt[i] &gt; maxNum) &#123;</span><br><span class="line">            maxNum = cnt[i];</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">int</span> flag=<span class="number">0</span>;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"最多的字母："</span>);</span><br><span class="line">    <span class="keyword">for</span>(i=<span class="number">0</span>; i&lt;<span class="number">26</span>; i++) &#123;</span><br><span class="line">        <span class="keyword">if</span>(cnt[i] == maxNum) &#123;</span><br><span class="line">            <span class="keyword">if</span>(flag)</span><br><span class="line">                <span class="built_in">printf</span>(<span class="string">", "</span>);</span><br><span class="line">            <span class="built_in">printf</span>(<span class="string">"%c"</span>, i+<span class="string">'a'</span>);</span><br><span class="line">            flag=<span class="number">1</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"\n出现的次数：%d\n"</span>, maxNum);</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    freopen(<span class="string">"dataIn.txt"</span>, <span class="string">"r"</span>, <span class="built_in">stdin</span>);</span><br><span class="line">    freopen(<span class="string">"dataOut.txt"</span>, <span class="string">"w"</span>, <span class="built_in">stdout</span>);</span><br><span class="line">    <span class="keyword">while</span>(fgets(str, MAXN, <span class="built_in">stdin</span>)!=<span class="literal">NULL</span>) &#123;</span><br><span class="line">        solve();</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="pro02-进制转换"><a href="#pro02-进制转换" class="headerlink" title="pro02,进制转换"></a>pro02,进制转换</h2><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdlib.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> MAXN 100+5</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> LL_MAX ((1LL&lt;&lt;63)-1)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> ll long long</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> mem(a, n) memset(a, n, sizeof(a))</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">char</span> str[MAXN];</span><br><span class="line"><span class="keyword">int</span> num[MAXN], cnt;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">twe2ten</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="keyword">int</span> i=<span class="number">0</span>;</span><br><span class="line">    cnt=<span class="number">0</span>;</span><br><span class="line">    <span class="keyword">while</span>(str[i]!=<span class="string">'\0'</span>) &#123;</span><br><span class="line">        <span class="keyword">int</span> tmp=str[i++]-<span class="string">'0'</span>;</span><br><span class="line">        <span class="keyword">if</span>(tmp&gt;<span class="number">10</span>) &#123;</span><br><span class="line">            tmp=tmp+<span class="number">48</span><span class="number">-97</span>+<span class="number">10</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        num[cnt++] = tmp;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">convert</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="keyword">int</span> res=<span class="number">0</span>, i;</span><br><span class="line">    <span class="keyword">for</span>(i=<span class="number">0</span>; i&lt;cnt; i++) &#123;</span><br><span class="line">        res = res*<span class="number">12</span>+num[i];</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> res;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">calcu</span><span class="params">(<span class="keyword">int</span> x)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">int</span> res[<span class="number">32</span>], i=<span class="number">32</span>;</span><br><span class="line">    <span class="keyword">while</span>(x) &#123;</span><br><span class="line">        res[--i] = x%<span class="number">2</span>;</span><br><span class="line">        x /= <span class="number">2</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">while</span>(i&gt;<span class="number">0</span>) &#123;</span><br><span class="line">        res[--i]=<span class="number">0</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">for</span>(i=<span class="number">0</span>; i&lt;<span class="number">32</span>; i++) &#123;</span><br><span class="line">        <span class="keyword">if</span>(i&amp;&amp;i%<span class="number">8</span>==<span class="number">0</span>)  <span class="built_in">printf</span>(<span class="string">"  "</span>);</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">"%d"</span>, res[i]);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"\n"</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="keyword">while</span>(~<span class="built_in">scanf</span>(<span class="string">"%s"</span>, str)) &#123;</span><br><span class="line">        twe2ten();  <span class="comment">// 每一位十二进制对应的十进制</span></span><br><span class="line">        <span class="keyword">int</span> i;</span><br><span class="line">        <span class="keyword">for</span>(i=<span class="number">0</span>; i&lt;cnt; i++) &#123;</span><br><span class="line">            <span class="keyword">if</span>(i!=cnt<span class="number">-1</span>) <span class="built_in">printf</span>(<span class="string">"%d "</span>, num[i]);</span><br><span class="line">            <span class="keyword">else</span> <span class="built_in">printf</span>(<span class="string">"%d\n"</span>, num[i]);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">int</span> res=convert();  <span class="comment">// 十二进制转十进制</span></span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">"%d\n"</span>, res);</span><br><span class="line">        calcu(res);    <span class="comment">//输出内存中的二进制位</span></span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="pro03-分数转小数"><a href="#pro03-分数转小数" class="headerlink" title="pro03,分数转小数"></a>pro03,分数转小数</h2><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdlib.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> MAXN 100+5</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> LL_MAX ((1LL&lt;&lt;63)-1)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> ll long long</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> mem(a, n) memset(a, n, sizeof(a))</span></span><br><span class="line"></span><br><span class="line"><span class="comment">/// pro03, 模拟除法，寻找循环节。ps:注意输出格式</span></span><br><span class="line"><span class="keyword">int</span> N[<span class="number">3</span>], D[<span class="number">3</span>];</span><br><span class="line"><span class="keyword">int</span> res[MAXN], mod[MAXN];</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">solve</span><span class="params">(<span class="keyword">int</span> n, <span class="keyword">int</span> d)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">int</span> cnt=<span class="number">1</span>, pos=<span class="number">0</span>;</span><br><span class="line">    res[<span class="number">0</span>] = n/d, mod[<span class="number">0</span>] = n%d;</span><br><span class="line">    <span class="keyword">int</span> i;</span><br><span class="line">    <span class="keyword">while</span>(cnt&lt;MAXN &amp;&amp; mod[cnt<span class="number">-1</span>]!=<span class="number">0</span>) &#123;</span><br><span class="line">        res[cnt] = (mod[cnt<span class="number">-1</span>]*<span class="number">10</span>)/d;</span><br><span class="line">        mod[cnt] = (mod[cnt<span class="number">-1</span>]*<span class="number">10</span>)%d;</span><br><span class="line">        <span class="keyword">if</span>(mod[cnt]==<span class="number">0</span>)  <span class="keyword">break</span>;</span><br><span class="line">        <span class="keyword">for</span>(i=<span class="number">1</span>; i&lt;cnt; i++) &#123; <span class="comment">//查找余数是否存在循环，即小数循环节</span></span><br><span class="line">            <span class="keyword">if</span>(mod[i] == mod[cnt]) &#123;</span><br><span class="line">                pos=i;</span><br><span class="line">                <span class="keyword">break</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span>(pos!=<span class="number">0</span>) <span class="keyword">break</span>;</span><br><span class="line">        cnt++;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"%d/%d="</span>, n, d);</span><br><span class="line">    <span class="keyword">if</span>(res[<span class="number">0</span>]!=<span class="number">0</span>) <span class="built_in">printf</span>(<span class="string">"%d"</span>, res[<span class="number">0</span>]); <span class="comment">//整数位</span></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"."</span>);</span><br><span class="line">    <span class="keyword">if</span>(pos==<span class="number">0</span>) &#123; <span class="comment">//没有循环节</span></span><br><span class="line">        <span class="keyword">for</span>(i=<span class="number">1</span>; i&lt;=cnt; i++) &#123;</span><br><span class="line">            <span class="built_in">printf</span>(<span class="string">"%d"</span>, res[i]);</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">    &#125; <span class="keyword">else</span> &#123; <span class="comment">//有循环节</span></span><br><span class="line">        <span class="keyword">for</span>(i=<span class="number">1</span>; i&lt;pos; i++) &#123;  <span class="comment">//注意 小数可能从后面一部分才出现循环节</span></span><br><span class="line">            <span class="built_in">printf</span>(<span class="string">"%d"</span>, res[i]);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">"("</span>);</span><br><span class="line">        <span class="keyword">for</span>(i=pos; i&lt;cnt; i++) &#123;</span><br><span class="line">            <span class="built_in">printf</span>(<span class="string">"%d"</span>, res[i]);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">")"</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">puts</span>(<span class="string">""</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line"><span class="comment">//    freopen("dataIn.txt", "r", stdin);</span></span><br><span class="line"><span class="comment">//    freopen("dataOut.txt", "w", stdout);</span></span><br><span class="line">    <span class="keyword">int</span> i;</span><br><span class="line">    <span class="keyword">for</span>(i=<span class="number">0</span>; i&lt;<span class="number">3</span>; i++) &#123;</span><br><span class="line">        <span class="built_in">scanf</span>(<span class="string">"%d/%d"</span>, &amp;N[i], &amp;D[i]);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">for</span>(i=<span class="number">0</span>; i&lt;<span class="number">3</span>; i++) &#123;</span><br><span class="line">        solve(N[i], D[i]);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+
+
+
+    <!-- Footer -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <p class="copyright text-muted">
+          Theme By <a target="_blank" href="https://github.com/levblanc">Levblanc.</a>
+          Inspired By <a target="_blank" href="https://github.com/klugjo/hexo-theme-clean-blog">Clean Blog.</a>
+        <p class="copyright text-muted">
+          Powered By <a target="_blank" href="https://hexo.io/">Hexo.</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    <!-- After Footer Scripts -->
+
+<script src="/js/highlight.pack.js"></script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function(event) {
+    var codeBlocks = Array.prototype.slice.call(document.getElementsByTagName('pre'))
+    codeBlocks.forEach(function(block, index) {
+      hljs.highlightBlock(block);
+    });
+  });
+</script>
+
+  </body>
+</html>
+
