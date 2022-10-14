@@ -20,28 +20,28 @@ nav: true
 </div>
 
 
-<!-- #### Preprints -->
+#### Preprints
 
 <!-- <details>
 <summary>Preprints</summary> -->
-<!-- <div> -->
+<div>
 
-<!-- {% for y in page.years %}
-  <!-- {% bibliography -f preprint -q @*[year={{y}}]* %} -->
-<!-- {% endfor %} -->
+{% for y in page.years %}
+  {% bibliography -f preprint -q @*[year={{y}}]* %}
+{% endfor %}
 
-<!-- </div> --> 
+</div> 
 <!-- </details> -->
 
-<!-- #### Books -->
+#### Books
 
-<!-- <div class="publications"> -->
+<div class="publications"> -->
 
-<!-- {% for y in page.years %} -->
-  <!-- {% bibliography -f books -q @*[year={{y}}]* %} -->
-<!-- {% endfor %} -->
+{% for y in page.years %}
+  {% bibliography -f books -q @*[year={{y}}]* %}
+{% endfor %}
 
-<!-- </div> -->
+</div>
 
 
 
