@@ -4,14 +4,14 @@ title: About
 permalink: /
 description: 
 
-profile:
-  align: right
-  image: me2.png
-  address: 
+# profile:
+  # align: right
+  # image: me2.png
+  # address: 
 
-news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: false  # includes social icons at the bottom of the page
+news: false  # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: true  # includes social icons at the bottom of the page
 ---
 
 I am now a third-year master student at College of Computer and Cyber Security, Fujian Normal University, working with
