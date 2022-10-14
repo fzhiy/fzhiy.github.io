@@ -1,18 +1,25 @@
-<!--
- * @Date: 2022-10-14 20:15:10
- * @Author: yufeng
- * @GitHub: https://github.com/fzhiy
- * @Email: fzhiy270@163.com
- * @LastEditTime: 2022-10-14 21:21:57
--->
+
 ---
 layout: page
 permalink: /publications/
 title: Publications
 description: 
-years: [2022, 2021, 2020, 2019, 2018, 2017, 2016]
+years: [2022, 2021]
 nav: true
 ---
+<!-- , 2020, 2019, 2018, 2017, 2016 -->
+
+#### Papers
+
+<div class="publications">
+
+{% for y in page.years %}
+  <h2 class="year">{{y}}</h2>
+  {% bibliography -f pubs -q @*[year={{y}}]* %}
+{% endfor %}
+
+</div>
+
 
 <!-- #### Preprints -->
 
@@ -37,16 +44,6 @@ nav: true
 
 <!-- </div> -->
 
-#### Papers
-
-<div class="publications">
-
-{% for y in page.years %}
-  <h2 class="year">{{y}}</h2>
-  {% bibliography -f pubs -q @*[year={{y}}]* %}
-{% endfor %}
-
-</div>
 
 
 

@@ -1,3 +1,4 @@
+
 ---
 layout: page
 title: Service
@@ -5,7 +6,7 @@ permalink: /service/
 nav: true
 ---
 
-#### Academic service
+<!-- #### Academic service
 
 - Journal editorship:
   - Editorial board of young scientist, Journal of Computer Science and Technology (JCST) 
@@ -24,11 +25,11 @@ nav: true
 - Membership: 
   - Member of CCF technical committee pervasive computing (TCPC)
   - Member of human computer interaction (TCHCI)
-  - CCF member.
+  - CCF member. -->
 
 #### Awards
 
-- Innovation award. IJCAI federated learning workshop 2022.
+<!-- - Innovation award. IJCAI federated learning workshop 2022.
 - Distinguished doctoral thesis award (中国科学院优秀博士学位论文奖) 2020.
 - Best Application Paper Award. IJCAI-19 Federated Machine Learning Workshop 2019.
 - Outstanding Scholarship of CAS president (中科院院长优秀奖) 2019.
@@ -45,4 +46,4 @@ nav: true
 - Excellent Graduate, NCUT 2014.
 - Excellent Bachelor's Graduation Thesis, NCUT 2014.
 - Beijing Merit Student, Beijing City 2013.
-- National Scholarship (3x), Ministry of Education 2012, 2013, 2014.
+- National Scholarship (3x), Ministry of Education 2012, 2013, 2014. -->
