@@ -21,6 +21,8 @@ Recently, my research work covers several issues : federated learning, blokchain
 network, differential privacy and privacy-preserving. Currently, I am interesting in variety of approaches for federated learning
 (Federated Graph Machine Learning, etc.) and related applications.
 
+More detail about me, please refer to [CV](https://ac.fzhiy.net/assets/files/YuFeng-CV-Phd-EN.pdf).
+
 <!-- 
 Senior Researcher, Microsoft Research Asia<br>
 Building 2, No. 5 Danling Street, Haidian District, Beijing, China<br>

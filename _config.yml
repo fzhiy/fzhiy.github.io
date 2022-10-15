@@ -54,12 +54,12 @@ gitlab_username: # your GitLab user name
 twitter_username: # your Twitter handle
 linkedin_username: # your LinkedIn user name
 scholar_userid: # hBZ_tKsAAAAJ # your Google Scholar ID
-orcid_id: # your ORCID ID
+orcid_id: 0000-0003-1057-7586 # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
 research_gate_profile: # your profile on ResearchGate
-blogger_url: # your blogger URL
+blogger_url: fzhiy.net # your blogger URL
 work_url: # work page URL
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
@@ -70,8 +70,8 @@ rss_icon: true
 
 contact_note: 
   #You can even add a little note about which of these is the best way to reach you.
-
-google_analytics: G-LRLQJKW7E9 # out your google-analytics code
+  
+google_analytics: # G-LRLQJKW7E9 # out your google-analytics code
 panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 
 # -----------------------------------------------------------------------------
