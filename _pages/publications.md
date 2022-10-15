@@ -8,6 +8,16 @@ nav: true
 ---
 <!-- , 2020, 2019, 2018, 2017, 2016 -->
 
+#### Patents
+
+<div>
+
+{% for y in page.years %}
+  {% bibliography -f patents -q @*[year={{y}}]* %}
+{% endfor %}
+
+</div> 
+
 #### Papers
 
 <div class="publications">
@@ -20,10 +30,14 @@ nav: true
 </div>
 
 
-#### Preprints
+
 
 <!-- <details>
 <summary>Preprints</summary> -->
+<!-- </details> -->
+
+<!-- #### Preprints
+
 <div>
 
 {% for y in page.years %}
@@ -31,17 +45,16 @@ nav: true
 {% endfor %}
 
 </div> 
-<!-- </details> -->
 
 #### Books
 
-<div class="publications"> -->
+<div class="publications"> 
 
 {% for y in page.years %}
   {% bibliography -f books -q @*[year={{y}}]* %}
 {% endfor %}
 
-</div>
+</div> -->
 
 
 
