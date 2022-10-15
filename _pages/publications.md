@@ -8,16 +8,6 @@ nav: true
 ---
 <!-- , 2020, 2019, 2018, 2017, 2016 -->
 
-#### Patents
-
-<div>
-
-{% for y in page.years %}
-  {% bibliography -f patents -q @*[year={{y}}]* %}
-{% endfor %}
-
-</div> 
-
 #### Preprints
 
 <!-- <details>
