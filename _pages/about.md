@@ -4,10 +4,10 @@ title: About
 permalink: /
 description: 
 
-# profile:
-  # align: right
-  # image: me2.png
-  # address: 
+profile:
+  align: right
+  image: me2.jpg
+  address: 
 
 news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
