@@ -10,18 +10,18 @@ profile:
   address: 
 
 news: false  # includes a list of news items
-selected_papers: false # includes a list of papers marked as "selected={true}"
+selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am now a third-year master student at College of Computer and Cyber Security, Fujian Normal University, working with
-Professor Hui Lin and Dr. Jia Hu on Federated Learning and privacy protection.
+I am now a third-year master student at College of Computer and Cyber Security,<br> 
+Fujian Normal University, working with Professor Hui Lin and Dr. Jia Hu on Federated Learning and privacy protection.
 
 Recently, my research work covers several issues : federated learning, blokchain, generative adversarial
 network, differential privacy and privacy-preserving. Currently, I am interesting in variety of approaches for federated learning
 (Federated Graph Machine Learning, etc.) and related applications.
 
-More detail about me, please refer to [CV](http://ac.fzhiy.net/assets/files/YuFeng-CV-Phd-EN.pdf) | [Blog](https://fzhiy.net/) | [Github](https://github.com/fzhiy) | [Zhihu](https://www.zhihu.com/people/ni-feng-88-10).
+More detail about me, please refer to [CV](http://ac.fzhiy.net/assets/files/../../../../../assets/files/YuFeng-CV-Phd-EN.pdf) | [Blog](https://fzhiy.net/) | [Github](https://github.com/fzhiy) | [Zhihu](https://www.zhihu.com/people/ni-feng-88-10).
 
 <!-- 
 Senior Researcher, Microsoft Research Asia<br>
