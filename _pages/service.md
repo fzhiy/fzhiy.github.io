@@ -28,21 +28,12 @@ nav: true
 
 #### Awards
 
-<!-- - Innovation award. IJCAI federated learning workshop 2022.
-- Distinguished doctoral thesis award (中国科学院优秀博士学位论文奖) 2020.
-- Best Application Paper Award. IJCAI-19 Federated Machine Learning Workshop 2019.
-- Outstanding Scholarship of CAS president (中科院院长优秀奖) 2019.
-- Special scholarship of ICT (中科院计算所所长特别奖) 2019.
-- Student Scholarship. AAAI Conference on Artificial Intelligence (AAAI) 2019.
-- Student Travel Grant. ACM International Conference on Multimedia (ACMMM) 2018.
-- Outstanding Reviewer. Neurocomputing. 2018.
-- Best Paper. The 3rd International Conference on Crowd Science and Engineering (ICCSE) 2018.
-- Student Travel Award. International Conference on Machine Learning (ICML) 2018.
-- Student Scholarship. AAAI conference on Artificial Intelligence (AAAI) 2018.
-- National Scholarship for PhD students, Ministry of Education 2017.
-- Merit Student, UCAS 2017.
-- Second prize of Bewinner Innovation scholarship. 2017.
-- Excellent Graduate, NCUT 2014.
-- Excellent Bachelor's Graduation Thesis, NCUT 2014.
-- Beijing Merit Student, Beijing City 2013.
-- National Scholarship (3x), Ministry of Education 2012, 2013, 2014. -->
+- Second-class Academic Scholarship of Fujian Normal University, 2022.
+- Outstanding Graduate of Hunan Province, Outstanding Graduate of HNUST, 2020.
+- Outstanding Undergraduate Graduation Thesis of College, 2020.
+- National Encouragement Scholarship (twice), Outstanding Student Leader of HNUST, 2017 & 2019.
+- First prize of HNUST (twice), Second prize of HNUST, Merit Student of HNUST (three times), 2017 - 2019.
+- Third prize in Hunan Division of ”Ladder Competition” of Chinese universities, 2018.
+- Second prize of ”Lanqiao Cup” Hunan Province (twice, C++ and Java), 2018.
+- Bronze Prize of CCPC Invitational Competition and the 10th Xiangtan Program Design Competition, 2018.
+- First prize of National College Students Electronic Creative Innovation Competition in the national preliminary competition, Second prize in the final competition, 2018.
