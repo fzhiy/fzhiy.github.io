@@ -25,6 +25,10 @@ nav: true
   - Member of CCF technical committee pervasive computing (TCPC)
   - Member of human computer interaction (TCHCI)
   - CCF member. -->
+#### Teaching
+
+- Computer Network, Teaching Assistant, 2020.09 – 2021.01.
+- Programming Experiment (Data structure and C++ programming), Teaching Assistant, 2017.09 – 2019.06.
 
 #### Awards
 
