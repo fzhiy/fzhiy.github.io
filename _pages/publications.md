@@ -29,14 +29,11 @@ nav: true
 
 </div>
 
-
-
-
 <!-- <details>
 <summary>Preprints</summary> -->
 <!-- </details> -->
 
-<!-- #### Preprints
+#### Preprints
 
 <div>
 
@@ -54,7 +51,7 @@ nav: true
   {% bibliography -f books -q @*[year={{y}}]* %}
 {% endfor %}
 
-</div> -->
+</div> 
 
 
 

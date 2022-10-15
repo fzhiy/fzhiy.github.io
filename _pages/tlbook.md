@@ -6,7 +6,7 @@ title: 技术博客
 # years: [1956, 1950, 1935, 1905, 2021]
 nav: true
 ---
-
+<!-- 
 <img src = "https://s1.ax1x.com/2022/08/04/vekmjK.png" align = "right" width = "200">
 
 <img src = "https://z3.ax1x.com/2021/07/13/WECOu8.jpg" align = "right" width = "200">
@@ -118,4 +118,4 @@ nav: true
 - 微信公众号：[王晋东不在家](http://jd92.wang/assets/image/wechat_public_account.jpg)
 - B站：[王晋东不在家](https://space.bilibili.com/477087194)
 - Github: [jindongwang](http://www.github.com/jindongwang)
-- 微博：[秦汉日记](http://www.weibo.com/wjdbr)
+- 微博：[秦汉日记](http://www.weibo.com/wjdbr) -->
