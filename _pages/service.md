@@ -30,7 +30,7 @@ nav: true
 - Computer Network, Teaching Assistant, 2020.09 – 2021.01.
 - Programming Experiment (Data structure and C++ programming), Teaching Assistant, 2017.09 – 2019.06.
 
-#### Awards
+#### Selected Honors and Awards
 
 - Second-class Academic Scholarship of Fujian Normal University, 2022.
 - Outstanding Graduate of Hunan Province, Outstanding Graduate of HNUST, 2020.
@@ -41,3 +41,5 @@ nav: true
 - Second prize of ”Lanqiao Cup” Hunan Province (twice, C++ and Java), 2018.
 - Bronze Prize of CCPC Invitational Competition and the 10th Xiangtan Program Design Competition, 2018.
 - First prize of National College Students Electronic Creative Innovation Competition in the national preliminary competition, Second prize in the final competition, 2018.
+- Second prize in Undergraduate programming competition of HNUST, 2017
+- Second prize of Hubei Province in National Mathematics League for High School Students, 2015
