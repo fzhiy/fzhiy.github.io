@@ -15,13 +15,13 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 I am now a third-year master student at College of Computer and Cyber Security,<br> 
-Fujian Normal University, working with Professor Hui Lin and Dr. Jia Hu on Federated Learning and privacy protection.
+Fujian Normal University, working with Professor Hui Lin and Prof. Xiaoding Wang on Federated Learning, Edge Computing and Privacy.
 
 Recently, my research work covers several issues : federated learning, blokchain, generative adversarial
 network, differential privacy and privacy-preserving. Currently, I am interesting in variety of approaches for federated learning
 (Federated Graph Machine Learning, Federated Continual Learning, etc.) and related applications.
 
-More detail about me, please refer to [Blog](https://fzhiy.net/) | [Github](https://github.com/fzhiy) | [Zhihu](https://www.zhihu.com/people/ni-feng-88-10) || [CV](https://ac.fzhiy.net/assets/files/FengYu-CV-Phd.pdf).
+More detail about me, please refer to [Blog](https://fzhiy.net/) | [Github](https://github.com/fzhiy) | [Zhihu](https://www.zhihu.com/people/ni-feng-88-10) || [CV](https://ac.fzhiy.net/assets/files/FengYu-CV.pdf).
 
 <!-- **Note: The website is still being refined...** -->
 
