@@ -29,8 +29,9 @@ nav: true
 
 - Computer Network, Teaching Assistant, 2020.09 – 2021.01.
 - Programming Experiment (Data structure and C++ programming), Teaching Assistant, 2017.09 – 2019.06.
+- Advanced Mathematics and Professional Basic Courses, Assistant Class Teacher, 2017.09 – 2018.06.
 
-#### Selected Honors and Awards
+#### Main Honors and Awards
 
 - Second-class Academic Scholarship of Fujian Normal University, 2022.
 - Outstanding Graduate of Hunan Province, Outstanding Graduate of HNUST, 2020.
