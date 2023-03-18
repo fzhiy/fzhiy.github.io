@@ -21,7 +21,7 @@ Recently, my research work covers several issues : federated learning, blokchain
 network, differential privacy and privacy-preserving. Currently, I am interesting in variety of approaches for federated learning
 (Federated Graph Machine Learning, Federated Continual Learning, etc.) and related applications.
 
-More detail about me, please refer to [Blog](https://fzhiy.net/) | [Github](https://github.com/fzhiy) | [Zhihu](https://www.zhihu.com/people/ni-feng-88-10) || [CV](https://ac.fzhiy.net/assets/files/FengYu-CV.pdf).
+More detail about me, please refer to [Homepage](https://home.fzhiy.net/) | [Github](https://github.com/fzhiy) | [Zhihu](https://www.zhihu.com/people/ni-feng-88-10) || [CV](https://ac.fzhiy.net/assets/files/FengYu-CV.pdf).
 
 <!-- **Note: The website is still being refined...** -->
 
