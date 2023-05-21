@@ -3,25 +3,25 @@ layout: page
 permalink: /publications/
 title: Publications
 description: 
-years: [2021, 2022, 2023]
+years: [2023, 2022]
 nav: true
 ---
 <!-- , 2020, 2019, 2018, 2017, 2016 -->
 
-#### Preprints
+<!-- #### Preprints -->
 
 <!-- <details>
 <summary>Preprints</summary> -->
-<div>
+<!-- <div>
 
 {% for y in page.years %}
   {% bibliography -f preprint -q @*[year={{y}}]* %}
 {% endfor %}
 
-</div>
+</div> -->
 <!-- </details> -->
 
-#### Books
+<!-- #### Books
 
 <div class="publications">
 
@@ -29,7 +29,7 @@ nav: true
   {% bibliography -f books -q @*[year={{y}}]* %}
 {% endfor %}
 
-</div>
+</div> -->
 
 #### Papers
 
