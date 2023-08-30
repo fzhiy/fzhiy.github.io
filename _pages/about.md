@@ -14,11 +14,10 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am now a third-year master student at College of Computer and Cyber Security,<br> 
-Fujian Normal University, working with Professor Hui Lin and Prof. Xiaoding Wang on Federated Learning, Edge Computing and Privacy.
+I will be becoming a full-time PhD student in 2023 fall at the University of Exeter, UK,<br> 
+under the supervision of Dr. [Jia Hu](https://computerscience.exeter.ac.uk/staff/jh815) and Prof. [Geyong Min](https://computerscience.exeter.ac.uk/staff/gm321). My research interests are mainly edge artificial intelligence, federated learning, and continual learning.
 
-Recently, my research work covers several issues : federated learning, blokchain, generative adversarial
-network, differential privacy and privacy-preserving. Currently, I am interesting in variety of approaches for federated learning
+My previous research work covers several issues : federated learning, blokchain, generative adversarial network, differential privacy and privacy-preserving. Currently, I am interesting in variety of approaches for federated learning
 (Federated Graph Machine Learning, Federated Continual Learning, etc.) and related applications.
 
 More detail about me, please refer to [Homepage](https://home.fzhiy.net/) | [Github](https://github.com/fzhiy) | [Zhihu](https://www.zhihu.com/people/ni-feng-88-10) || [CV](https://ac.fzhiy.net/assets/files/FengYu-CV.pdf).
