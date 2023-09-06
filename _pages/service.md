@@ -33,6 +33,7 @@ nav: true
 
 #### Main Honors and Awards
 
+- China Scholarship Council and University of Exeter Scholarships, 2023.
 - Second-class Academic Scholarship of Fujian Normal University, 2022.
 - Outstanding Graduate of Hunan Province, Outstanding Graduate of HNUST, 2020.
 - Outstanding Undergraduate Graduation Thesis of College, 2020.
