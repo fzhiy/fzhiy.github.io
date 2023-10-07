@@ -14,7 +14,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I will be becoming a full-time PhD student in 2023 fall at the University of Exeter, UK,<br> 
+I am now a full-time PhD student at the University of Exeter, UK,<br> 
 under the supervision of Dr. [Jia Hu](https://computerscience.exeter.ac.uk/staff/jh815) and Prof. [Geyong Min](https://computerscience.exeter.ac.uk/staff/gm321). My research interests are mainly edge artificial intelligence, federated learning, and continual learning. My research is supported by China Scholarship Council and University of Exeter Scholarships. 
 
 My previous research work covers several issues : federated learning, blokchain, generative adversarial network, differential privacy and privacy-preserving. Currently, I am interesting in variety of approaches for federated learning
