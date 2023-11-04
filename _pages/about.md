@@ -15,9 +15,9 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 I am now a full-time PhD student at the University of Exeter, UK,<br> 
-under the supervision of Dr. [Jia Hu](https://computerscience.exeter.ac.uk/staff/jh815) and Prof. [Geyong Min](https://computerscience.exeter.ac.uk/staff/gm321). My research interests are mainly edge artificial intelligence, federated learning, and continual learning. My research is supported by China Scholarship Council and University of Exeter Scholarships. 
+under the supervision of [Prof. Jia Hu](https://computerscience.exeter.ac.uk/staff/jh815) and [Prof. Geyong Min](https://computerscience.exeter.ac.uk/staff/gm321). My research interests are mainly edge artificial intelligence, federated learning, and continual learning. My research is supported by China Scholarship Council and University of Exeter Scholarships. 
 
-My previous research work covers several issues : federated learning, blokchain, generative adversarial network, differential privacy and privacy-preserving. Currently, I am interesting in variety of approaches for federated learning
+My previous research works cover several issues : federated learning, blokchain, generative adversarial network, differential privacy and privacy-preserving. Currently, I am interesting in variety of approaches for federated learning
 (Federated Graph Machine Learning, Federated Continual Learning, etc.) and related applications.
 
 More detail about me, please refer to [Homepage](https://home.fzhiy.net/) \/ [Github](https://github.com/fzhiy) \/ [Zhihu](https://www.zhihu.com/people/ni-feng-88-10) \/ [Google Scholar](https://scholar.google.com/citations?user=ZfVzhPwAAAAJ) \/ [CV](https://ac.fzhiy.net/assets/files/FengYu-CV.pdf).
