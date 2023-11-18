@@ -25,6 +25,11 @@ nav: true
   - Member of CCF technical committee pervasive computing (TCPC)
   - Member of human computer interaction (TCHCI)
   - CCF member. -->
+#### Academic Service
+
+- Conference Volunteer:
+  - IEEE Conference on Trust, Security and Privacy in Computing and Communications (TrustCom), 2023
+
 #### Teaching
 
 - Computer Network, Teaching Assistant, 2020.09 – 2021.01.
