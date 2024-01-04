@@ -20,7 +20,7 @@ under the supervision of [Prof. Jia Hu](https://computerscience.exeter.ac.uk/sta
 My previous research works cover several issues : federated learning, blokchain, generative adversarial network, differential privacy and privacy-preserving. Currently, I am interested in variety of approaches for federated learning
 (Federated Graph Machine Learning, Federated Continual Learning, etc.) and related applications.
 
-More detail about me, please refer to [Homepage](https://home.fzhiy.net/) \/ [Github](https://github.com/fzhiy) \/ [Zhihu](https://www.zhihu.com/people/ni-feng-88-10) \/ [Google Scholar](https://scholar.google.com/citations?user=ZfVzhPwAAAAJ) \/ [CV](https://ac.fzhiy.net/assets/files/FengYu-CV.pdf).
+More detail about me, please refer to [Homepage](https://home.fzhiy.net/) \/ [Github](https://github.com/fzhiy) \/ [Zhihu](https://www.zhihu.com/people/ni-feng-88-10) \/ [Google Scholar](https://scholar.google.com/citations?user=ZfVzhPwAAAAJ) \/ [CV](https://ac.fzhiy.net/assets/files/FengYu_CV.pdf).
 
 <!-- **Note: The website is still being refined...** -->
 
