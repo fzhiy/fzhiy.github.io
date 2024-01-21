@@ -27,14 +27,13 @@ nav: true
   - CCF member. -->
 #### Academic Service
 
-- Conference Volunteer:
-  - IEEE Conference on Trust, Security and Privacy in Computing and Communications (TrustCom), 2023
+- IEEE [TrustCom'23](https://hpcn.exeter.ac.uk/trustcom2023/), Online Session Chair & Reception Volunteer, 2023
 
 #### Teaching
-
-- Computer Network, Teaching Assistant, 2020.09 – 2021.01.
-- Programming Experiment (Data structure and C++ programming), Teaching Assistant, 2017.09 – 2019.06.
-- Advanced Mathematics and Professional Basic Courses, Assistant Class Teacher, 2017.09 – 2018.06.
+- ECM 2433 The C Family, Postgraduate Teaching Assistant, UNEXE, 2024.01 – 2024.04.
+- Computer Network, Teaching Assistant, FJNU, 2020.09 – 2021.01.
+- Programming Experiment (Data structure and C++ programming), Teaching Assistant, HNUST, 2017.09 – 2019.06.
+- Advanced Mathematics and Professional Basic Courses, Class Teacher Assistant, HNUST, 2017.09 – 2018.06.
 
 #### Main Honors and Awards
 
