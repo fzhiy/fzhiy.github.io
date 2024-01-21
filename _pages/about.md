@@ -14,7 +14,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 Hi all.
-I am Feng Yu, a first-year full-time PhD student in computer science at the [University of Exeter](https://www.exeter.ac.uk/), under the supervision of [Prof. Jia Hu](https://computerscience.exeter.ac.uk/staff/jh815) and [Prof. Geyong Min](https://computerscience.exeter.ac.uk/staff/gm321). My research interests are mainly federated learning, continual learning and edge intelligence.
+This is Feng Yu, a first-year full-time PhD student in computer science at the [University of Exeter](https://www.exeter.ac.uk/), under the supervision of [Prof. Jia Hu](https://computerscience.exeter.ac.uk/staff/jh815) and [Prof. Geyong Min](https://computerscience.exeter.ac.uk/staff/gm321). My research interests are mainly federated learning, continual learning and edge intelligence.
 My research is supported by China Scholarship Council and University of Exeter Scholarships. 
 
 I am open to discussing research ideas and seeking academic collaborations. Drop me email if interested!
