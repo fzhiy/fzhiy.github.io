@@ -114,7 +114,7 @@
             {% if entry.pdf contains '://' %}
             <a href="{{ entry.pdf }}" role="button" style="padding-top: 0em; padding-bottom: 0px;">PDF</a>
             {% else %}
-            <a href="{{ entry.pdf | prepend: '/assets/files/' | relative_url }}"
+            <a href="{{ entry.pdf | prepend: '/assets/files/' | relative_url }}" role="button"
                 style="padding-top: 0em; padding-bottom: 0px;">PDF</a>
             {% endif %}
             {% endif %}
