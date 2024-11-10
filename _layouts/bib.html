@@ -108,11 +108,11 @@
             <a class="bibtex btn btn-sm z-depth-0" role="button" style="padding-top: 0em; padding-bottom: 0px;">Bib</a>
             {% endif %}
             {% if entry.html %}
-            <a href="{{ entry.html }}" style="padding-top: 0em; padding-bottom: 0px;">HTML</a>
+            <a href="{{ entry.html }}" role="button" style="padding-top: 0em; padding-bottom: 0px;">HTML</a>
             {% endif %}
             {% if entry.pdf %}
             {% if entry.pdf contains '://' %}
-            <a href="{{ entry.pdf }}" style="padding-top: 0em; padding-bottom: 0px;">PDF</a>
+            <a href="{{ entry.pdf }}" role="button" style="padding-top: 0em; padding-bottom: 0px;">PDF</a>
             {% else %}
             <a href="{{ entry.pdf | prepend: '/assets/files/' | relative_url }}"
                 style="padding-top: 0em; padding-bottom: 0px;">PDF</a>
