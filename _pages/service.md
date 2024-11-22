@@ -27,15 +27,21 @@ nav: true
   - CCF member. -->
 #### Academic Service
 
-- IEEE [TrustCom'23](https://hpcn.exeter.ac.uk/trustcom2023/), Online Session Chair & Reception Volunteer, 2023
+- Reviewer
+    - IEEE TrustCom-24
+    - IEEE IUCC-24
+- Conference Organisation
+    - IEEE [TrustCom-23](https://hpcn.exeter.ac.uk/trustcom2023/), Online Session Chair & Reception Volunteer
 
 #### Teaching
-- ECM 2433 The C Family, Postgraduate Teaching Assistant, UNEXE, 2024.01 – 2024.04.
+- ECM 2428 IT Project Management, dTA, UNEXE, 2024.09 - 2024.12
+- ECM 2414 Software Development, TA, UNEXE, 2024.09 - 2024.12
+- ECM 2433 The C Family, TA, UNEXE, 2024.01 – 2024.04.
 - Computer Network, Teaching Assistant, FJNU, 2020.09 – 2021.01.
 - Programming Experiment (Data structure and C++ programming), Teaching Assistant, HNUST, 2017.09 – 2019.06.
 - Advanced Mathematics and Professional Basic Courses, Class Teacher Assistant, HNUST, 2017.09 – 2018.06.
 
-#### Main Honors and Awards
+<!-- #### Main Honors and Awards
 
 - China Scholarship Council and University of Exeter Scholarships, 2023.
 - Second-class Academic Scholarship of Fujian Normal University, 2022.
@@ -48,4 +54,4 @@ nav: true
 - Bronze Prize of CCPC Invitational Competition and the 10th Xiangtan Program Design Competition, 2018.
 - First prize of National College Students Electronic Creative Innovation Competition in the national preliminary competition, Second prize in the final competition, 2018.
 - Second prize in Undergraduate programming competition of HNUST, 2017
-- Second prize of Hubei Province in National Mathematics League for High School Students, 2015
+- Second prize of Hubei Province in National Mathematics League for High School Students, 2015 -->
