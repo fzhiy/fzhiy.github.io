@@ -38,6 +38,7 @@ nav: true
 {% for y in page.years %}
   <h2 class="year">{{y}}</h2>
   {% bibliography -f pubs -q @*[year={{y}}]* %}
+  {% bibliography -f preprint -q @*[year={{y}}]* %}
 {% endfor %}
 
 </div>
