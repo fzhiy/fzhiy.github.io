@@ -2,31 +2,32 @@
 layout: about
 title: About
 permalink: /
-description: 
+description:
 
 profile:
   align: right
   image: me.png
-  address: 
+  address:
 
-news: true  # includes a list of news items
+news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
 ---
+
 Hi there!
-This is Feng Yu, a second-year PhD student in computer science at the [University of Exeter](https://www.exeter.ac.uk/), under the supervision of [Prof. Jia Hu](https://computerscience.exeter.ac.uk/staff/jh815) and [Prof. Geyong Min](https://computerscience.exeter.ac.uk/staff/gm321). My research interests are mainly federated learning, continual learning and edge intelligence.
-My research is supported by China Scholarship Council and University of Exeter Scholarships. 
+This is Feng Yu, a second-year PhD student in computer science at the [University of Exeter](https://www.exeter.ac.uk/), under the supervision of [Prof. Jia Hu](https://computerscience.exeter.ac.uk/staff/jh815) and [Prof. Geyong Min](https://computerscience.exeter.ac.uk/staff/gm321). My research interests are mainly federated learning, continual learning, parameter-efficient fine-tuning and edge intelligence.
+My research is supported by China Scholarship Council and University of Exeter Scholarships.
 
 I am open to discussing research ideas and seeking academic collaborations. Drop me email if interested!
 
 My previous research works cover several issues : federated learning, blokchain, generative adversarial network, differential privacy and privacy protection. Currently, I am interested in variety of approaches for federated learning
 (Federated Graph Machine Learning, Federated Continual Learning, etc.) and related applications.
 
-More detail about me, please refer to [Homepage](https://home.fzhiy.net/) \/ [Github](https://github.com/fzhiy) \/ [Zhihu](https://www.zhihu.com/people/ni-feng-88-10) \/ [Google Scholar](https://scholar.google.com/citations?user=ZfVzhPwAAAAJ) \/ [CV](https://ac.fzhiy.net/assets/files/FengYu_CV.pdf).
+More detail about me, please refer to [CV](https://ac.fzhiy.net/assets/files/FengYu_CV.pdf).
 
 <!-- **Note: The website is still being refined...** -->
 
-<!-- 
+<!--
 Senior Researcher, Microsoft Research Asia<br>
 Building 2, No. 5 Danling Street, Haidian District, Beijing, China<br>
 jindongwang [at] outlook.com, jindong.wang [at] microsoft.com<br>
