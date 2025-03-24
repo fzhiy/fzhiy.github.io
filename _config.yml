@@ -96,8 +96,9 @@ disqus_shortname: al-folio # put your disqus shortname
 
 collections:
   cv:
+    title: CV
     output: true
-    permalink: /cv/
+    permalink: https://ac.fzhiy.net/assets/files/FengYu_CV.pdf
   news:
     defaults:
       layout: post
