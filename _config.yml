@@ -95,6 +95,9 @@ disqus_shortname: al-folio # put your disqus shortname
 # -----------------------------------------------------------------------------
 
 collections:
+  cv:
+    output: true
+    permalink: /cv/
   news:
     defaults:
       layout: post
