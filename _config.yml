@@ -93,13 +93,13 @@ disqus_shortname: al-folio # put your disqus shortname
 # -----------------------------------------------------------------------------
 # Collections
 # -----------------------------------------------------------------------------
-nav:
-  - title: Feng Yu
-    url: /
-  - title: cv
-    url: https://ac.fzhiy.net/assets/files/FengYu_CV.pdf
 
 collections:
+  cv:
+    title: Feng Yu
+    url: /
+    output: true
+    url: /assets/files/FengYu_CV.pdf
   news:
     defaults:
       layout: post
