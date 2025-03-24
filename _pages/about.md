@@ -15,15 +15,20 @@ social: true # includes social icons at the bottom of the page
 ---
 
 Hi there!
-This is Feng Yu, a second-year PhD student in computer science at the [University of Exeter](https://www.exeter.ac.uk/), under the supervision of [Prof. Jia Hu](https://computerscience.exeter.ac.uk/staff/jh815) and [Prof. Geyong Min](https://computerscience.exeter.ac.uk/staff/gm321). My research interests are mainly federated learning, continual learning, parameter-efficient fine-tuning and edge intelligence.
+
+This is Feng Yu, a second-year PhD student in computer science at the [University of Exeter](https://www.exeter.ac.uk/), under the supervision of [Prof. Jia Hu](https://computerscience.exeter.ac.uk/staff/jh815) and [Prof. Geyong Min](https://computerscience.exeter.ac.uk/staff/gm321). My research interests are mainly federated learning (FL), continual learning (CL), foundation models (FMs) and edge artificial intelligence (Edge AI).
 My research is supported by China Scholarship Council and University of Exeter Scholarships.
+
+Currently, I am interested in variety of issues in federated learning and continual learning such as 
+- Exploring and leveraging large-scale heterogeneous data thoroughly;
+- Advancing continual learning in the context of resource-constrained FL settings;
+- Developing lightweight and efficient fine-tuning techniques for FMs tailored to Edge AI applications.
+
+My previous research works cover federated learning, deep reinforcement learning, blokchain, generative adversarial network, differential privacy and privacy protection. 
 
 I am open to discussing research ideas and seeking academic collaborations. Drop me email if interested!
 
-My previous research works cover several issues : federated learning, blokchain, generative adversarial network, differential privacy and privacy protection. Currently, I am interested in variety of approaches for federated learning
-(Federated Graph Machine Learning, Federated Continual Learning, etc.) and related applications.
-
-More detail about me, please refer to [CV](https://ac.fzhiy.net/assets/files/FengYu_CV.pdf).
+<!-- More detail about me, please refer to [CV](https://ac.fzhiy.net/assets/files/FengYu_CV.pdf). -->
 
 <!-- **Note: The website is still being refined...** -->
 
