@@ -28,17 +28,19 @@ nav: true
 #### Academic Service
 
 - Reviewer
-    - IEEE TrustCom-24
-    - IEEE IUCC-24
+    - Conference: IEEE ICDCS'24, IEEE TrustCom-2024, IEEE IUCC-2024
+    - Journal: IEEE Internet of Things Journal (IoTJ)
 - Conference Organisation
-    - IEEE [TrustCom-23](https://hpcn.exeter.ac.uk/trustcom2023/), Online Session Chair & Reception Volunteer
+    - IEEE [HPCC-2025](https://hpcn.exeter.ac.uk/hpcc2025/), Web and System Management Chair
+    - IEEE [TrustCom-2023](https://hpcn.exeter.ac.uk/trustcom2023/), Online Session Chair & Reception Volunteer
 
 #### Teaching
-- ECM 2428 IT Project Management, dTA, UNEXE, 2024.09 - 2024.12
-- ECM 2414 Software Development, TA, UNEXE, 2024.09 - 2024.12
+- ECM 2428 IT Project Management, dTA, UNEXE, 2024.09 - 2024.12.
+- ECM 2414 Software Development, TA, UNEXE, 2024.09 - 2024.12.
 - ECM 2433 The C Family, TA, UNEXE, 2024.01 – 2024.04.
 - Computer Network, Teaching Assistant, FJNU, 2020.09 – 2021.01.
 - Programming Experiment (Data structure and C++ programming), Teaching Assistant, HNUST, 2017.09 – 2019.06.
+- Object Oriented Programming, TA, HNUST, 2017.09 - 2018.06.
 - Advanced Mathematics and Professional Basic Courses, Class Teacher Assistant, HNUST, 2017.09 – 2018.06.
 
 <!-- #### Main Honors and Awards
