@@ -96,8 +96,6 @@ disqus_shortname: al-folio # put your disqus shortname
 
 collections:
   cv:
-    title: Feng Yu
-    url: /
     output: true
     url: /assets/files/FengYu_CV.pdf
   news:
