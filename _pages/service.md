@@ -28,7 +28,7 @@ nav: true
 #### Academic Service
 
 - Reviewer
-    - Conference: IEEE ICDCS'24, IEEE TrustCom-2024, IEEE IUCC-2024
+    - Conference: IEEE ICDCS'24, IEEE TrustCom'24, IEEE IUCC'24
     - Journal: IEEE Internet of Things Journal (IoTJ)
 - Conference Organisation
     - IEEE [HPCC-2025](https://hpcn.exeter.ac.uk/hpcc2025/), Web and System Management Chair

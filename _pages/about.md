@@ -14,15 +14,15 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi there!
+Hi everyone!
 
-This is Feng Yu, a second-year PhD student in computer science at the [University of Exeter](https://www.exeter.ac.uk/), under the supervision of [Prof. Jia Hu](https://computerscience.exeter.ac.uk/staff/jh815) and [Prof. Geyong Min](https://computerscience.exeter.ac.uk/staff/gm321). My research interests are mainly federated learning (FL), continual learning (CL), foundation models (FMs) and edge artificial intelligence (Edge AI).
+This is Feng Yu, a PhD student in computer science at the [University of Exeter](https://www.exeter.ac.uk/), under the supervision of [Prof. Jia Hu](https://computerscience.exeter.ac.uk/staff/jh815) and [Prof. Geyong Min](https://computerscience.exeter.ac.uk/staff/gm321). My research interests are mainly federated learning (FL), continual learning (CL), foundation models (FMs) and efficient artificial intelligence (Efficient AI).
 My research is supported by China Scholarship Council and University of Exeter Scholarships.
 
 Currently, I am interested in variety of issues in federated learning and continual learning such as 
 - Exploring and leveraging large-scale heterogeneous data thoroughly;
 - Advancing continual learning in the context of resource-constrained FL settings;
-- Developing lightweight and efficient fine-tuning techniques for FMs tailored to Edge AI applications.
+- Developing lightweight and efficient techniques for FMs tailored to Edge AI applications.
 
 My previous research works cover federated learning, deep reinforcement learning, blokchain, generative adversarial network, differential privacy and privacy protection. 
 
