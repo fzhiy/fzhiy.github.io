@@ -14,19 +14,19 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi everyone!
+I am Feng Yu, a PhD student in Computer Science at the [University of Exeter](https://www.exeter.ac.uk/), supervised by [Prof. Jia Hu](https://computerscience.exeter.ac.uk/staff/jh815) and [Prof. Geyong Min](https://computerscience.exeter.ac.uk/staff/gm321). My current research focuses on **LLM post-training, continual learning and adaptation, and efficient AI**. I am particularly interested in how foundation models can be adapted efficiently while retaining capability under evolving tasks and distributions, and more recently in continual adaptation of agents under changing interfaces and workflows. My research is supported by China Scholarship Council and University of Exeter Scholarships.
 
-This is Feng Yu, a PhD student in computer science at the [University of Exeter](https://www.exeter.ac.uk/), under the supervision of [Prof. Jia Hu](https://computerscience.exeter.ac.uk/staff/jh815) and [Prof. Geyong Min](https://computerscience.exeter.ac.uk/staff/gm321). My research interests are mainly federated learning (FL), continual learning (CL), foundation models (FMs) and efficient artificial intelligence (Efficient AI).
-My research is supported by China Scholarship Council and University of Exeter Scholarships.
+### Current interests
 
-Currently, I am interested in variety of issues in federated learning and continual learning such as 
-- Exploring and leveraging large-scale heterogeneous data thoroughly;
-- Advancing continual learning in the context of resource-constrained FL settings;
-- Developing lightweight and efficient techniques for FMs tailored to Edge AI applications.
+- Post-training and efficient adaptation for large language models
+- Continual learning, retention, and robustness under evolving tasks and distributions
+- Evaluation and continual adaptation of agents under changing interfaces and workflows
 
-My previous research works cover federated learning, deep reinforcement learning, blokchain, generative adversarial network, differential privacy and privacy protection. 
+### Broader background
 
-I am open to discussing research ideas and seeking academic collaborations. Drop me email if interested!
+My broader background includes federated learning, continual learning, efficient AI, privacy-aware learning systems, and earlier work on deep reinforcement learning, blockchain-enabled learning systems, and engineering-oriented automation.
+
+I am open to discussing research ideas and academic collaborations. Feel free to reach out by email.
 
 <!-- More detail about me, please refer to [CV](https://ac.fzhiy.net/assets/files/FengYu_CV.pdf). -->
 
