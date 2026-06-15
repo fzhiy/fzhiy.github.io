@@ -16,31 +16,9 @@ social: true # includes social icons at the bottom of the page
 
 I am Feng Yu, a PhD student in Computer Science at the [University of Exeter](https://www.exeter.ac.uk/), supervised by [Prof. Jia Hu](https://computerscience.exeter.ac.uk/staff/jh815) and [Prof. Geyong Min](https://computerscience.exeter.ac.uk/staff/gm321). My research focuses on **continual learning and efficient adaptation for foundation models**, with a particular interest in post-training methods for LLMs and LLM agents under evolving tasks, distributions, and workflows.
 
-My recent work approaches this question from two angles: BoHA, a LoRA-style method for parameter-efficient LLM fine-tuning, and Fed-TaLoRA, a task-agnostic low-rank residual adaptation method for dynamic incremental tasks in distributed training settings. Alongside this research, I maintain public learning resources that connect post-training papers, mathematical formulations, and practical implementation exercises.
+My recent work approaches this question from two angles: **BoHA**, a LoRA-style method for parameter-efficient LLM fine-tuning, and **Fed-TaLoRA**, a task-agnostic low-rank residual adaptation method for dynamic incremental tasks in distributed training settings.
 
-### Current interests
-
-- Continual learning and efficient adaptation for foundation models
-- Post-training and parameter-efficient LLM fine-tuning with LoRA-style adapters
-- Evaluation, memory, and context adaptation for LLM agents
-
-### Research
-
-- **BoHA**: Blockwise Hadamard Product Adaptation for parameter-efficient LLM fine-tuning.
-- **Fed-TaLoRA**: Task-agnostic low-rank residual adaptation for federated continual adaptation under dynamic incremental tasks.
-
-### Public resources
-
-- [**Post-Training Playbook**](https://ac.fzhiy.net/post-training-playbook/): bilingual study notes and implementation drills for LLM post-training, alignment, reward modeling, RLHF, DPO, GRPO, PEFT, and evaluation.
-- [**Agent Post-Training Playbook**](https://ac.fzhiy.net/agent-post-training-playbook/): bilingual study notes and drills on long-horizon LLM agents, agentic RL, continual learning, and self-improving systems.
-
-### Broader background
-
-My broader background includes continual learning, efficient AI, privacy-aware learning systems, and engineering-oriented automation.
-
-I am open to discussing research ideas and academic collaborations. Feel free to reach out by email.
-
-My research is supported by China Scholarship Council and University of Exeter Scholarships.
+I am open to discussing research ideas and academic collaborations. Feel free to reach out by email. My research is supported by China Scholarship Council and University of Exeter Scholarships.
 
 <!-- More detail about me, please refer to [CV](https://ac.fzhiy.net/assets/files/FengYu_CV.pdf). -->
 
